@@ -7,6 +7,7 @@
   in {
     # flakegen needn't be declared, here. It is automatically added when
     # generating flake.nix.
+    flake-parts = "github:hercules-ci/flake-parts";
     nixlib.url = "github:nix-community/nixpkgs.lib";
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-unstable";
     nix-darwin = (dep "github:LnL7/nix-darwin");
